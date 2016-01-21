@@ -1,0 +1,65 @@
+#two {
+	height:700px;
+	width:400px;
+}
+
+#three {
+	height:650px;
+	width: 425px;
+}
+
+#four {
+	height:500px;
+	width:500px;
+}
+
+#five {
+	height:550px;
+	width:500px;
+}
+
+#six {
+	height:650px;
+	width: 425px;
+}
+
+body {
+	background-color:#bb99ff;
+}
+
+li {
+	font-size:30px;
+	color:#661aff;
+}
+
+h1 {
+	font-size:40px;
+	text-align:center;
+	color:#661aff;
+}
+/* The button */
+.button {
+	padding:10px 30px;
+	background-color:#661aff;
+	border-radius:5px;
+	text-align:center;
+	text-decoration:none;
+	color:blue;
+	margin:0 auto;
+	display:inline-block;
+	width:auto;
+}	
+
+.button-container {
+	text-align:right;
+	width:100%;
+	display:block;
+}
+
+
+a {
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+	padding:2em;
+	margin:-2em;
