@@ -1,0 +1,32 @@
+body {
+	background-color:#aa80ff;
+
+}
+
+table {
+	border: 5px solid #5500ff;
+	background-color: #aa80ff;
+	margin:auto;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+
+td {
+	height: 300px;
+	width: 300px;
+}
+
+td img {
+	height: 300px;
+	width: 300px;
+	box-shadow: none;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 30px;
+	font-weight: normal;
+	color: white;
+}
