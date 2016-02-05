@@ -12,8 +12,8 @@
 }
 
 li {
-	float:left;
-	border-right:1px solid blue;
+	float:right;
+	border-left:1px solid blue;
 }
 
 li:last-child {
@@ -28,10 +28,6 @@ a {
 	text-align: center;
 }
 
-.image {
-	background-size:cover;
-}
-
 body {
 	background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/hphotos-frc3/v/t1.0-9/1175323_444218465691669_554736810_n.jpg?oh=fe26cd96cf9b27e3a025decd8f07be5c&oe=5736D704");
 	background-repeat: no-repeat;
@@ -44,10 +40,7 @@ h1 {
 	text-align:center;
 	margin-top: 100px;
 	font-size: 50px;
-}
-
-.LinkedIn {
-	margin-left: 950px;
+	
 }
 
 h3 {
@@ -56,4 +49,11 @@ h3 {
 	margin-top: 15px;
 	font-size:25px;
 	font-family:cursive;
+}
+
+.name {
+	float:left;
+	font-size: 30px;
+	color:white;
+	font-family:Lucida Console;
 }
