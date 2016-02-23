@@ -8,8 +8,12 @@
 	width:100%;
 	position:fixed;
 	left:0;
-
 }
+
+body {
+	height:100%;
+}
+
 
 header li {
 	float:right;
@@ -30,15 +34,29 @@ a {
 	font-family: 'Oswald'
 }
 
+@media (max-width: 320px) {
+	a {
+	display:block;
+	padding: 13px;
+	text-decoration: none;
+	color:blue;
+	text-align: center;
+	font-family: 'Oswald';
+    }
+}
+
 a:hover {
 	color:#80bfff;
 }
 
-body {
-	background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/hphotos-frc3/v/t1.0-9/1175323_444218465691669_554736810_n.jpg?oh=fe26cd96cf9b27e3a025decd8f07be5c&oe=5736D704");
+.Landing {
+	background-image: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1175323_444218465691669_554736810_n.jpg?oh=d36f1ed608378fa829255b769273d453&oe=575E6404");
 	background-repeat: no-repeat;
 	background-size:cover;
 	height:100%;
+	margin-top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h1 {
@@ -68,21 +86,22 @@ h3 {
 }
 
 .Footer {
-	margin-top: 500px;
+	margin-top: 50px;
 	background-color: #7575a3;
 	width:100%;
 	padding:13px;
-	margin-left:-10px;
 	text-align:center;
 	font-family: 'Oswald', sans-serif;
 	word-spacing: .35px;
 	display:block;
-	margin-bottom:0;
+	margin-bottom: 0;
+	margin-top: 30px;
 
 }
 
 span {
 	color:#ffb3b3;
 }
+
 
 
