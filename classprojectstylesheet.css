@@ -55,27 +55,27 @@ a:hover {
 	background-size:cover;
 	height:100%;
 	margin-top: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-position:center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-position: center;
 }
 
 h1 {
 	margin:auto;
 	text-align:center;
-	margin-top: 100px;
-	font-size: 50px;
+	margin-top: 40px;
+	font-size: 40px;
 	font-family:'Oswald', sans-serif;
 	
 }
 
-h3 {
+/* h3 {
 	margin:auto;
 	text-align: center;
 	margin-top: 15px;
 	font-size:25px;
 	font-family:cursive;
-}
+} */
 
 .name {
 	float:left;
@@ -95,13 +95,15 @@ h3 {
 	word-spacing: .35px;
 	display:block;
 	margin-bottom: 0;
-	margin-top: 0px;
+	margin-top: 0;
 
 }
 
 span {
 	color:#ffb3b3;
 }
+
+
 
 
 
