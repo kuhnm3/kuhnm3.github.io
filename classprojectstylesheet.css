@@ -1,9 +1,10 @@
+
 .Navbar {
 	list-style-type: none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	background-color:#7575a3;
+	background-color:#4d88ff;
 	top:0;
 	width:100%;
 	position:fixed;
@@ -26,7 +27,7 @@ header li:first-child {
 }
 
 a {
-	display:block;
+	display:inline-block;
 	padding: 13px;
 	text-decoration: none;
 	color:black;
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .Landing {
-	background-image: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1175323_444218465691669_554736810_n.jpg?oh=d36f1ed608378fa829255b769273d453&oe=575E6404");
+	background-image: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10525688_927004357413075_6088660645713150412_n.jpg?oh=e7d676f842072b234df3b6212ad0c5c7&oe=576838A8");
 	background-repeat: no-repeat;
 	background-size:cover;
 	height:100%;
@@ -87,7 +88,7 @@ h1 {
 }
 
 .Footer {
-	background-color: #7575a3;
+	background-color: #4d88ff;
 	width:100%;
 	padding:13px;
 	text-align:center;
@@ -102,6 +103,42 @@ h1 {
 span {
 	color:#ffb3b3;
 }
+
+/*.Background {
+	background-color: #80b3ff;
+  overflow:auto;
+}
+
+h3 {
+	text-align: center;
+	letter-spacing: 5px;
+	color:black;
+	font-family: 'Oswald';
+	margin:0;
+	padding:30px;
+	font-size: 50px;
+}
+
+img {
+	border-radius:7px;
+	width:35%;
+	height:80%;
+	float:left;
+	margin-left:20px;
+	padding-bottom: 80px;
+
+}
+
+p {
+	color:black;
+  margin-left:400px;
+  float:left;
+  margin-top:50px; 
+  width:60%;
+  font-size:25px;
+  margin-left: 20px;
+ 
+}*/
 
 
 
