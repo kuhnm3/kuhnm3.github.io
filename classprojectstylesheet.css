@@ -1,3 +1,4 @@
+
 .Navbar {
 	list-style-type: none;
 	margin:0;
@@ -108,7 +109,6 @@ h1 {
 
 .container {
 	margin-top:400px;
-	/*margin-left:850px;*/
 }
 
 .Footer {
@@ -128,42 +128,16 @@ span {
 	color:#ffb3b3;
 }
 
-
-/*.Background {
-	background-color: #80b3ff;
-  overflow:auto;
+.modal-footer {
+	border-top: 0;
 }
 
-h3 {
-	text-align: center;
-	letter-spacing: 5px;
-	color:black;
-	font-family: 'Oswald';
-	margin:0;
-	padding:30px;
-	font-size: 50px;
+.modal-header {
+	border-bottom:0;
 }
 
-img {
-	border-radius:7px;
-	width:35%;
-	height:80%;
-	float:left;
-	margin-left:20px;
-	padding-bottom: 80px;
 
-}
 
-p {
-	color:black;
-  margin-left:400px;
-  float:left;
-  margin-top:50px; 
-  width:60%;
-  font-size:25px;
-  margin-left: 20px;
- 
-}*/
 
 
 
