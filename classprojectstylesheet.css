@@ -65,6 +65,19 @@ a {
 	background-position: center;
 }
 
+.footer {
+	background-color: black;
+	width:100%;
+	padding:13px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	word-spacing: .35px;
+	display:block;
+	margin-bottom: 0;
+	margin-top: 0;
+	box-shadow: 0px 0px 10px #888888;
+	color:white;
+}
 
 
 
