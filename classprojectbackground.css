@@ -3,11 +3,17 @@
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	background-color:#4d88ff;
+	background-color:black;
 	top:0;
 	width:100%;
 	position:fixed;
 	left:0;
+	z-index:1;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+.backtitle {
+	margin-top:30px;
 }
 
 header li {
@@ -16,42 +22,31 @@ header li {
 
 }
 
-header li:first-child {
+/*header li:first-child {
 	border-left:none;
-}
+}*/
 
 a {
 	display:inline-block;
 	padding: 13px;
 	text-decoration: none;
-	color:black;
-	text-align: center;
-	font-family: 'Oswald'
-}
-
-@media (max-width: 320px) {
-	a {
-	display:block;
-	padding: 13px;
-	text-decoration: none;
-	color:blue;
+	color:white;
 	text-align: center;
 	font-family: 'Oswald';
-    }
+	letter-spacing: 2px;
 }
 
 a:hover {
 	color:#80bfff;
+	text-decoration: none;
 }
 
-body {
-	color:#ccddff;
-}
 
 .background {
-	background-color: #80b3ff;
   overflow:auto;
+  width:100%;
 }
+
 
 h3 {
 	text-align: center;
@@ -63,35 +58,20 @@ h3 {
 	font-size: 50px;
 }
 
-img {
-	border-radius:7px;
-	width:auto;
-	height:50%;
-	float:left;
-	margin-left:20px;
-	margin-bottom: 60px;
- 	/*padding-bottom: 80px;*/
-
-}
-
-p {
-	color:black;
-  margin-left:450px;
-  float:left;
-  margin-top:50px; 
-  width:60%;
-  font-size:25px;
-  margin-left: 20px;
- 
+.about-picture img{
+  max-width:100%;
+  border-radius:5px;
+  margin-left:10px;
 }
 
 .name {
 	float:left;
 	font-size: 27px;
-	color:black;
+	color:white;
 	margin-top:7px;
 	margin-left:12px;
 	font-family: 'Oswald', sans-serif;
+	border-left:none;
 
 }
 
@@ -100,33 +80,6 @@ i.fa {
 	font-size: 40px;
 	margin-top:-33px;
 	padding:10px;
-
-}
-
-.education {
-background-color: #80b3ff;
-  overflow:auto;
-  padding:10px;
-}
-
-.sage {
-	border-color: #fff;
-	border-width: 5px;
-	border-radius:8px;
-	background-color: #80b3ff;
-	border-style: solid;
-	padding:50px;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top:50px;
-}
-
-.rsage {
-	max-width:100%;
-	width:150px;
-	height:150px;
-	margin-top:-15px;
-	float:left;
 }
 
 h5 {
@@ -136,100 +89,58 @@ h5 {
 	margin-bottom:0;
 }
 
-.list {
-	text-decoration: none;
-	width:80%;
-	margin-left:200px;
-	
-}
-
 .titlewords {
 	text-align:center;
 }
 
-.si {
-	border-color: #fff;
-	border-width: 5px;
-	border-radius:8px;
-	background-color: #80b3ff;
-	border-style: solid;
-	padding:50px;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top:50px;
+
+.nav-links li {
+  float: right;
+  border-left: 1px solid blue;
 }
 
-
-.work {
-background-color: #80b3ff;
-  overflow:auto;
-  padding:10px;
+.nav-links li a {
+  display: inline-block;
+  padding: 13px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: 'Oswald';
 }
 
-.play {
-	border-color: #fff;
-	border-width: 5px;
-	border-radius:8px;
-	background-color: #80b3ff;
-	border-style: solid;
-	padding:50px;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top:50px;
+.menu-btn {
+  display: none;
+  border: 1px solid black;
+  padding: 10px;
+  float:right;
 }
 
-.sipic {
-	max-width:100%;
-	width:150px;
-	height:150px;
-	margin-top:-27px;
-	float:left;
+@media (max-width: 740px) {
+  .menu-btn {
+    display: block;
+    text-decoration: none;
+  }
+  .nav-links{
+    display:none;
+  }
+  .nav-links li{
+    display:block;
+    clear:both;
+    width:100%;
+    border-top:1px solid blue;
+    text-align:center;
+  }
+  .nav-links li a{
+    display:block;
+  }
+
+  p {
+  	padding:10px;
+  }
+
+  img {
+  	height:60vh;
+  	width:auto;
+  }
 }
 
-.playpic {
-	max-width:100%;
-	width:150px;
-	height:150px;
-	margin-top:-27px;
-	float:left;
-}
-
-.seem {
-	border-color: #fff;
-	border-width: 5px;
-	border-radius:8px;
-	background-color: #80b3ff;
-	border-style: solid;
-	padding:50px;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top:50px;
-}
-
-.seempic {
-	max-width:100%;
-	width:150px;
-	height:150px;
-	margin-top:-27px;
-	float:left;
-}
-
-.uarc {
-	border-color: #fff;
-	border-width: 5px;
-	border-radius:8px;
-	background-color: #80b3ff;
-	border-style: solid;
-	padding:50px;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top:50px;
-}
-
-.uarcpic {
-	max-width:100%;
-	width:150px;
-	height:150px;
-	margin-top:-27px;
-	float:left;
-}
