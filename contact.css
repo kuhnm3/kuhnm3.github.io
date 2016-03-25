@@ -1,3 +1,5 @@
+
+
 .navbar {
 	list-style-type: none;
 	margin:0;
@@ -8,62 +10,6 @@
 	width:100%;
 	position:fixed;
 	left:0;
-	z-index:1;
-	box-shadow: 0px 0px 10px #888888;
-}
-
-.backtitle {
-	margin-top:30px;
-	font-size:50px;
-}
-
-header li {
-	float:right;
-	border-left:1px solid blue;
-
-}
-
-/*header li:first-child {
-	border-left:none;
-}*/
-
-a {
-	display:inline-block;
-	padding: 13px;
-	text-decoration: none;
-	color:white;
-	text-align: center;
-	font-family: 'Oswald';
-	letter-spacing: 2px;
-}
-
-a:hover {
-	color:#80bfff;
-	text-decoration: none;
-}
-
-
-.background {
-  overflow:auto;
-  width:100%;
-}
-
-
-h3 {
-	text-align: center;
-	letter-spacing: 5px;
-	color:black;
-	font-family: 'Oswald';
-	margin:0;
-	padding:50px;
-	font-size: 50px;
-}
-
-.about-picture img{
-  max-width:100%;
-  border-radius:5px;
-  margin-left:0px;
-  margin-top:40px;
 }
 
 .name {
@@ -73,8 +19,6 @@ h3 {
 	margin-top:7px;
 	margin-left:12px;
 	font-family: 'Oswald', sans-serif;
-	border-left:none;
-
 }
 
 .gradient {
@@ -85,11 +29,40 @@ h3 {
   background: white;
   background: linear-gradient(#8533ff, #66e0ff);
 
-  padding:100px;
+  padding:150px;
+
 }
 
-p {
+.background {
+	text-align:center;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 5px;
 	color:black;
+	font-family: 'Oswald';
+	margin:0;
+	padding:50px;
+	font-size: 50px;
+}
+header li {
+	float:right;
+	border-left:1px solid blue;
+
+}
+
+header li:first-child {
+	border-left:none;
+}
+
+a {
+	display:inline-block;
+	padding: 13px;
+	text-decoration: none;
+	color:white;
+	text-align: center;
+	font-family: 'Oswald'
 }
 
 i.fa {
@@ -97,16 +70,25 @@ i.fa {
 	font-size: 40px;
 	margin-top:-33px;
 	padding:10px;
-}
-
-h5 {
-	text-align: center;
-	font-size: 30px;
-	margin-top:-20px;
-	margin-bottom:0;
+	display:inline-block;
+	text-align:center;
 }
 
 
+.email {
+	padding:0;
+	color:black;
+	font-size:20px;
+	margin-top:0;
+}
+
+.email:hover {
+	font-family:cursive;
+}
+
+p {
+	text-align:center;
+}
 
 .nav-links li {
   float: right;
@@ -148,22 +130,5 @@ h5 {
     display:block;
   }
 
-  p {
-  	padding:10px;
-  }
-
-  .par-2 {
-  	display:none;
-  }
-
-  /*img {
-  	height:60vh;
-  	width:auto;*/
-  }
-
-  .backtitle {
-  	font-size:20px;
-  	text-align:center;
-  }
 }
 
