@@ -54,9 +54,10 @@ header li {
 
 }
 
-header li:first-child {
+/*header li:first-child {
 	border-left:none;
 }
+*/
 
 a {
 	display:inline-block;
