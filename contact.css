@@ -29,7 +29,9 @@
   background: white;
   background: linear-gradient(#8533ff, #66e0ff);
 
-  padding:150px;
+  padding:100px 0;
+  
+  height:100vh;
 
 }
 
@@ -128,6 +130,11 @@ p {
   }
   .nav-links li a{
     display:block;
+  }
+  
+  .gradient {
+  	height:auto;
+  	min-height:100vh;
   }
 
 }
