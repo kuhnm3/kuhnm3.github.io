@@ -1,3 +1,4 @@
+
 .navbar {
 	list-style-type: none;
 	margin:0;
@@ -14,6 +15,7 @@
 
 .backtitle {
 	margin-top:30px;
+	font-size:50px;
 }
 
 header li {
@@ -61,7 +63,7 @@ h3 {
 .about-picture img{
   max-width:100%;
   border-radius:5px;
-  margin-left:10px;
+  margin-left:0px;
 }
 
 .name {
@@ -73,6 +75,21 @@ h3 {
 	font-family: 'Oswald', sans-serif;
 	border-left:none;
 
+}
+
+.gradient {
+  background-color: white;
+
+  background-image: linear-gradient(#8533ff, #66e0ff);
+
+  background: white;
+  background: linear-gradient(#8533ff, #66e0ff);
+
+  padding:100px;
+}
+
+p {
+	color:black;
 }
 
 i.fa {
@@ -89,9 +106,6 @@ h5 {
 	margin-bottom:0;
 }
 
-.titlewords {
-	text-align:center;
-}
 
 
 .nav-links li {
@@ -138,9 +152,18 @@ h5 {
   	padding:10px;
   }
 
-  img {
+  .par-2 {
+  	display:none;
+  }
+
+  /*img {
   	height:60vh;
-  	width:auto;
+  	width:auto;*/
+  }
+
+  .backtitle {
+  	font-size:20px;
+  	text-align:center;
   }
 }
 
