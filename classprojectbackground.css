@@ -1,4 +1,5 @@
 
+
 .navbar {
 	list-style-type: none;
 	margin:0;
@@ -13,10 +14,6 @@
 	box-shadow: 0px 0px 10px #888888;
 }
 
-.backtitle {
-	margin-top:30px;
-	font-size:50px;
-}
 
 header li {
 	float:right;
@@ -62,7 +59,10 @@ h3 {
 
 .about-picture img{
   max-width:100%;
-  border-radius:5px;
+  border-radius:125px;
+  margin-left:100px;
+  height:40vh;
+  width:auto;
 }
 
 .name {
@@ -149,6 +149,10 @@ h5 {
     display:block;
   }
 
+  p {
+  	padding:10px;
+    width:80%;
+  }
 
   .par-2 {
   	display:none;
@@ -170,3 +174,6 @@ h5 {
   }
 }
 
+h3 .backtitle {
+  font-size:50px;
+}
