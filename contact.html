@@ -1,11 +1,16 @@
 <html>
 
 <head>
-<link rel="stylesheet" href="initialize.css"> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="contact.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="initialize.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="classprojectbackground.css">
 </head>
 
 
@@ -20,7 +25,7 @@
         <a class="menu-btn" href="#">Menu</a>
         <div class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="classprojectprojects.html">Projects</a></li>
           <li><a href="classprojectbackground.html">Background</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="https://www.linkedin.com/in/melaniekuhn1" target="_blank">LinkedIn</a></li>
@@ -32,16 +37,47 @@
 
 <div class="gradient">
 
-<div class="background">
-<h1>Contact me</h1>
-<i class="fa fa-envelope"></i>
-<p>I am currently looking for a job as a junior front end developer or UX designer/researcher.</p>
-<p>Reach out to me at:</p>
-<a href="mailto:melanie.kuhn11@gmail.com"><p class="email">melanie.kuhn11@gmail.com</p>
-</div>
+ <div class="container">
+  
+  <div class="row">
+    <div class="background">
+    <div class="col-sm-4">
+     <h1>Contact me</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2">
+     <i class="fa fa-envelope"></i>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+     <p>I am currently looking for a job as a junior front end developer or UX designer/researcher.</p>
+     <p>Reach out to me at:</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2">
+     <a href="mailto:melanie.kuhn11@gmail.com"><p class="email">melanie.kuhn11@gmail.com</p></a>
+    </div>
+  </div>
+    
+    </div> <!--background -->
+ </div> <!--container-->
+
 
 </div>
 
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+
+ $(".menu-btn").click(function(){
+  $(".nav-links").toggle();
+})
+</script>
 
 </body>
 </html>
