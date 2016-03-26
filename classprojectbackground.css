@@ -147,8 +147,9 @@ h5 {
   }
 
   p {
-  	padding:10px;
+    padding:10px;
     width:80%;
+    margin:auto;
   }
 
   .par-2 {
