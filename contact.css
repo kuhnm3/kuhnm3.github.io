@@ -1,5 +1,6 @@
 
 
+
 .navbar {
 	list-style-type: none;
 	margin:0;
@@ -30,9 +31,8 @@
   background: linear-gradient(#8533ff, #66e0ff);
 
   padding:100px 0;
-  
-  height:100vh;
 
+  height:100vh;
 }
 
 .background {
@@ -56,8 +56,7 @@ header li {
 
 /*header li:first-child {
 	border-left:none;
-}
-*/
+}*/
 
 a {
 	display:inline-block;
@@ -73,7 +72,9 @@ i.fa {
 	font-size: 40px;
 	margin-top:-33px;
 	padding:10px;
-	display:inline-block;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 	text-align:center;
 }
 
@@ -83,6 +84,11 @@ i.fa {
 	color:black;
 	font-size:20px;
 	margin-top:0;
+	text-align:center;
+}
+
+.email2 {
+	text-align:center;
 }
 
 .email:hover {
@@ -91,6 +97,16 @@ i.fa {
 
 p {
 	text-align:center;
+}
+
+.email {
+	padding:0;
+	color:black;
+	font-size:20px;
+	margin-top:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .nav-links li {
@@ -132,11 +148,10 @@ p {
   .nav-links li a{
     display:block;
   }
-  
-  .gradient {
-  	height:auto;
-  	min-height:100vh;
-  }
 
+  .gradient {
+    height:auto;
+    min-height:100vh;
+  }
 }
 
