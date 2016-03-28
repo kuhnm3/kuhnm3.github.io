@@ -15,11 +15,14 @@
 
 .name {
 	float:left;
-	font-size: 27px;
+	font-size: 25px;
+  margin-left:10px;
+  margin-top:5px;
 	color:white;
-	margin-top:7px;
-	margin-left:12px;
 	font-family: 'Oswald', sans-serif;
+	border-left:none;
+  padding:0;
+
 }
 
 .gradient {
@@ -65,6 +68,16 @@ a {
 	color:white;
 	text-align: center;
 	font-family: 'Oswald'
+}
+
+.nav-links li a:hover {
+  color:#80bfff;
+  text-decoration: none;
+} 
+
+a:hover {
+  text-decoration:none;
+  color:#80bfff;
 }
 
 i.fa {
