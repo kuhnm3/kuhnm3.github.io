@@ -14,12 +14,13 @@
 
 .name {
 	float:left;
-	font-size: 27px;
+	font-size: 25px;
+  margin-left:10px;
+  margin-top:5px;
 	color:white;
-	margin-top:7px;
-	margin-left:12px;
 	font-family: 'Oswald', sans-serif;
 	border-left:none;
+  padding:0;
 }
 
 body {
@@ -37,15 +38,6 @@ header li {
 	border-left:none;
 }*/
 
-a {
-	display:inline-block;
-	padding: 13px;
-	text-decoration: none;
-	color:white;
-	text-align: center;
-	font-family: 'Oswald';
-	letter-spacing: 2px;
-}
 
 
 .nav-links li a:hover {
@@ -53,6 +45,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+  text-decoration:none;
+  color:#80bfff;
+}
 
 .landing {
 	background-image: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10525688_927004357413075_6088660645713150412_n.jpg?oh=e7d676f842072b234df3b6212ad0c5c7&oe=576838A8");
