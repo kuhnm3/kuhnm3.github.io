@@ -51,6 +51,11 @@ h1 {
 	padding:50px;
 	font-size: 50px;
 }
+
+p {
+	color:black;
+}
+
 header li {
 	float:right;
 	border-left:1px solid blue;
