@@ -1,0 +1,158 @@
+.hackpic {
+	background-size:cover;
+	min-height:auto;
+	width:100vw;
+}
+
+.background {
+	width:100%;
+	position:relative;
+	
+}
+
+.home {
+	position:absolute;
+	top:5px;
+	right:15px;
+	border:3px solid white;
+	border-radius:7px;
+
+}
+
+.intro-par {
+	padding:50px;
+	font-size:25px;
+	margin-bottom:0;
+}
+
+.projects {
+	position:absolute;
+	color:white;
+	font-size:20px;
+}
+
+
+h1 {
+	text-align:center;
+	color:black;
+	font-family:'Raleway';
+	font-size:50px;
+}
+
+h2 {
+	text-align:center;
+	color:black;
+	font-family:'Raleway';
+	font-size:40px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+	float:right;
+	padding:10px;
+	font-weight:600;
+}
+
+p {
+	font-family:'Raleway';
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:15px;
+
+}
+
+ul  {
+	font-family: 'Raleway';
+	list-style-type: none;
+	
+}
+
+/* Other */
+
+h3 {
+	text-align: center;
+}
+
+h2 {
+	text-align:center;
+	margin-top:80px;
+	margin-bottom: 0;
+	font-size: 30px;
+	font-family: 'Raleway';
+	font-weight:600;
+}
+
+.grow-boston{
+	max-width: 100%;
+}
+
+.website-before {
+	max-width: 100%;
+}	
+
+.website-after {
+	max-width: 100%;
+}
+
+.meet-farmer-pic {
+	height:400px;
+	width:auto;
+}
+
+.menu-pic {
+	height:400px;
+	width:auto;
+}
+
+.shopping-list {
+	height:400px;
+	width:auto;
+}
+
+.par1 {
+	padding:15px;
+	font-family:'Raleway';
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.farmer {
+	text-align:center;
+}
+
+.orange {
+	padding:2px;
+	background-color:#ff8533;
+}
+
+.new-link {
+	float:right;
+	background-color:orange;
+	color:white;
+	text-decoration: none;
+}
+
+
+
+
+/*end of other*/
+
+
+/* Media Queries */
+@media (max-width: 740px) {
+	p {
+		width:auto;
+	}
+
+	.challenges {
+		font-size:30px;
+	}
+
+	ul {
+		width:100vw;
+		padding:0;
+	}
+}
