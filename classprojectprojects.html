@@ -6,32 +6,73 @@
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="classprojectprojects.css">
 </head>
 
 <body>
 	<div class="background">
 		<header>
-			<ul class="Navbar">
-				<li class="name">Melanie Kuhn</li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="classprojectbackground.html">Background</a></li>
-				<li><a href="https://www.linkedin.com/in/melaniekuhn1" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">LinkedIn</a></li>
-			</ul>
-		</header>
+    <ul class="navbar">
+      <li class="name">Melanie Kuhn</li>
+
+      <div>
+        <a class="menu-btn" href="#">Menu</a>
+        <div class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classprojectprojects.html">Projects</a></li>
+          <li><a href="classprojectbackground.html">Background</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://www.linkedin.com/in/melaniekuhn1" target="_blank">LinkedIn</a></li>
+        </div>
+    </ul>
+      </div>
+   </header>
+
+		<div class="gradient">
 
 
 		<h3> Projects </h3>
-		<div class="first">
+
+		<div class="row">
+		 <div class="col-sm-4 col-sm-offset-2">
+		   <div class="boston-public-market">
 			<div class="hovereffect">
-				<img class="img-responsive" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12832551_934364276677083_6041548363440233290_n.jpg?oh=2a1e939768251885f708106fae7b5a7c&oe=57948715" alt="">
+				<img class="boston-public-market-pic" src="https://scontent.fphl1-1.fna.fbcdn.net/hphotos-prn2/v/t1.0-9/10888543_10152694241306985_838429841246029788_n.jpg?oh=dd3b752ee68b1c0c3491ed41d05dda9e&oe=577BEB4C">
 				<div class="overlay">
 					<h2>Hackathon</h2>
 					<a class="info" href="hackathon.html">Learn More</a>
 				</div>
-			</div>
-		</div>
-	</div>
-</body>
+			</div> <!--Closes hovereffect -->
+		 </div> <!-- Closes boston-public-market -->
+		</div> <!--closes column -->
+
+	
+
+		
+		 <div class="col-sm-4">
+		  <div class="creative-36">
+			<div class="hovereffect">
+				<img class="creative-36-pic" src="https://scontent.fphl1-1.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/12208403_881719625198558_290203746722774872_n.jpg?oh=daa9c1cf7d4b76e1cbb94899a96da63f&oe=578FE7BA" alt="">
+				<div class="overlay">
+					<h2>36Creative</h2>
+					<a class="info" href=#>Coming Soon</a>
+				</div>
+			</div> <!--Closes hovereffect -->
+		</div> <!--closes creative-36 -->
+	</div> <!--closes column -->
+
+	</div> <!--Closes row -->
+	</div> <!-- Closes gradient -->
+
+	
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+
+ $(".menu-btn").click(function(){
+  $(".nav-links").toggle();
+})
+</script>
+
+	</body>
 </html>
