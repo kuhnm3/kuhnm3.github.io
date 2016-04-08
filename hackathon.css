@@ -1,3 +1,4 @@
+
 .hackpic {
 	background-size:cover;
 	min-height:auto;
@@ -84,9 +85,46 @@ h2 {
 	font-weight:600;
 }
 
-.grow-boston{
-	max-width: 100%;
+.grow-boston {
 	text-align:center;
+}
+
+.par1 {
+	padding:15px;
+	font-family:'Raleway';
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.farmer {
+	text-align:center;
+}
+
+.shopping-list {
+	text-align:center;
+}
+
+.menu {
+	text-align:center;
+}
+.orange {
+	padding:2px;
+	background-color:#ff8533;
+}
+
+.new-link {
+	float:right;
+	background-color:orange;
+	color:white;
+	text-decoration: none;
+}
+
+/* Images */
+
+.grow-boston-pic {
+	max-width: 100%;
+	width:350px;
 }
 
 .website-before {
@@ -103,40 +141,14 @@ h2 {
 }
 
 .menu-pic {
+	max-width:100%;
 	height:400px;
-	width:auto;
 }
 
-.shopping-list {
+.shopping-list-pic {
+	max-width:100%;
 	height:400px;
-	width:auto;
 }
-
-.par1 {
-	padding:15px;
-	font-family:'Raleway';
-	width:70%;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.farmer {
-	text-align:center;
-}
-
-.orange {
-	padding:2px;
-	background-color:#ff8533;
-}
-
-.new-link {
-	float:right;
-	background-color:orange;
-	color:white;
-	text-decoration: none;
-}
-
-
 
 
 /*end of other*/
@@ -155,5 +167,9 @@ h2 {
 	ul {
 		width:100vw;
 		padding:0;
+	}
+
+	h1 {
+		font-size:40px;
 	}
 }
