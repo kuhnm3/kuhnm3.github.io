@@ -175,9 +175,7 @@ h5 {
 .about-picture img{
   max-width:100%;
   border-radius:135px;
-  height:40vh;
-  width:auto;
-  padding:10px;
+  width:200px;
 }
 
 /*Media Queries*/
