@@ -108,6 +108,11 @@ h2 {
 .menu {
 	text-align:center;
 }
+
+.webiste {
+	text-align:center;
+}
+
 .orange {
 	padding:2px;
 	background-color:#ff8533;
@@ -129,25 +134,27 @@ h2 {
 
 .website-before {
 	max-width: 100%;
+	width:600px;
 }	
 
 .website-after {
 	max-width: 100%;
+	width:600px;
 }
 
 .meet-farmer-pic {
-	height:400px;
-	width:auto;
+	max-width:100%;
+	width:350px;
 }
 
 .menu-pic {
 	max-width:100%;
-	height:400px;
+	width:400px;
 }
 
 .shopping-list-pic {
 	max-width:100%;
-	height:400px;
+	width:400px;
 }
 
 
