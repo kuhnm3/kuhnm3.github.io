@@ -1,0 +1,365 @@
+/* Nav bar stuff */
+.navbar {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:black;
+    top:0;
+    width:100%;
+    position:fixed;
+    left:0;
+}
+
+.nav {
+    background-color:rgba(150,150,150,0.6);
+}
+
+.nav-links li {
+  float:right;
+}
+
+.nav-links li a {
+  display: inline-block;
+  padding: 13px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: 'Oswald';
+  letter-spacing: 2px;
+}
+
+.menu-btn {
+  display: none;
+  border: 1px solid black;
+  padding: 10px;
+  float:right;
+}
+
+.nav-links li a:hover {
+  color:#80bfff;
+  text-decoration: none;
+}
+
+header {
+    position:absolute;
+    top:0;
+    z-index:10;
+    width:100%;
+}
+
+
+
+/*Landing*/
+.landing {
+        background: url("https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12994436_961276820652495_7647863990997984277_n.jpg?oh=3642b831be5b7320e378fef487d5b281&oe=57B4AFF4")
+        center no-repeat fixed;
+        background-size: cover;
+        height:100%;
+        width:auto;
+        min-width:100%;
+        margin:none;
+
+}
+
+#animate {
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+.spaceship {
+  height: 200px;
+  width: 170px;
+
+}
+
+
+.name-title {
+    padding:200px;
+}
+
+.landing h1 {
+    text-align:center;
+    color:black;
+    font-family:'Open Sans';
+    font-size:60px;
+    margin:none;
+}
+
+.landing p {
+    text-align:center;
+    color:black;
+    font-size:35px;
+    font-family:'Lora';
+    margin:none;
+}
+
+p {
+    font-family:'Lora'
+}
+
+/*Background page stuff*/
+.backtitle {
+  text-align: center;
+  color:black;
+  font-family:'Open Sans';
+  margin:0;
+  padding:50px;
+  font-size: 50px;
+} 
+
+.about-picture img{
+  max-width:100%;
+  border-radius:125px;
+  width:200px;
+}
+
+.about-me {
+    padding:50px;
+    padding-bottom:100px;
+}
+
+/*Projects page stuff*/
+#projects {
+    padding-top:50px;
+    padding-bottom:100px;
+}
+
+.boston-public-market-pic {
+ width:250px;
+ max-width: 100%;
+
+}
+
+.creative-36-pic {
+  width:250px;
+  max-width:100%;
+}
+
+h3 {
+  text-align: center;
+  color:black;
+  font-family:'Open Sans'
+  margin:0;
+  padding:50px;
+  font-size: 50px;
+}
+
+/* Hover Effect */
+
+.hovereffect {
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+margin: 10px 100px;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(100,50,100,0.5);
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+transform:translatey(-100px);
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+transition-delay:.2s;
+}
+
+/*Contage page stuff*/
+.contact-overall {
+  padding-top:50px;
+  padding-bottom:100px;  
+}
+
+.par-contact {
+    text-align:center;
+}
+
+i.fa {
+    color:black;
+    font-size: 40px;
+    margin-top:-33px;
+    padding:10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.email {
+    padding:0;
+    color:black;
+    font-size:20px;
+    margin-top:0;
+    text-align:center;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.email2 {
+    text-align:center;
+}
+
+.email:hover {
+    font-family:cursive;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    font-family: 'Open Sans';
+    margin:0;
+    padding:50px;
+    font-size: 50px;
+}
+
+/*Galaxies*/
+.galaxy-two {
+    height:200px;
+    background:url('https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?crop=entropy&fit=crop&fm=jpg&h=600&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300')
+    center no-repeat fixed;
+    background-size: cover;
+}
+
+
+
+.galaxy-three {
+    height:200px;
+    background:url('https://images.unsplash.com/photo-1442876906995-6761040d1f0b?crop=entropy&fit=crop&fm=jpg&h=600&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300')
+    center no-repeat fixed;
+    background-size: cover;
+}
+
+.galaxy-four {
+    height:300px;
+    background:url('https://images.unsplash.com/photo-1450849608880-6f787542c88a?crop=entropy&fit=crop&fm=jpg&h=600&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300')
+    center no-repeat fixed;
+    background-size: cover;
+}
+
+
+/*Media Quieries*/
+@media (max-width: 740px) {
+ 
+ .landing {
+    height:50%;
+    background-position: top center;
+
+ }
+
+ .landing h1 {
+    font-size:30px; 
+
+ }
+
+ .name-title h1 {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+    height:10px;
+    padding:0;
+    font-size:35px;
+    color:black;
+ }
+
+ .name-title p {
+    display:none;
+ }
+
+ .menu-btn {
+    display: block;
+    text-decoration: none;
+  }
+  .nav-links{
+    display:none;
+  }
+  .nav-links li{
+    display:block;
+    clear:both;
+    width:100%;
+    border-top:1px solid black;
+    text-align:center;
+  }
+  .nav-links li a{
+    display:block;
+  }
+
+  .spaceship {
+  height: 100px;
+  width: 80px;
+}
+
+.nav {
+    background-color:rgba(0,0,0,0);
+}
+
+}
+
+
