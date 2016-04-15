@@ -68,12 +68,6 @@ header {
   left:0;
 }
 
-.spaceship {
-  height: 200px;
-  width: 170px;
-
-}
-
 
 .name-title {
     padding:200px;
@@ -310,12 +304,10 @@ h1 {
     height:50%;
     background-position: top center;
     overflow:hidden;
-
  }
 
  .landing h1 {
     font-size:30px; 
-
  }
 
  .name-title h1 {
@@ -359,11 +351,6 @@ h1 {
 .nav {
     background-color:rgba(0,0,0,0);
 }
-
-html {
-    overflow:hidden;
-}
-
 
 }
 
