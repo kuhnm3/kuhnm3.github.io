@@ -68,6 +68,10 @@ header {
   left:0;
 }
 
+.spaceship {
+    height:200px;
+    width:170px;
+}
 
 .name-title {
     padding:200px;
