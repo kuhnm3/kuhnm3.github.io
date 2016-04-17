@@ -1,6 +1,4 @@
-* {
-    overflow:hidden;
-}
+
 
 /* Nav bar stuff */
 .navbar {
@@ -354,6 +352,10 @@ h1 {
 
   .spaceship {
   display:none;
+}
+
+#animation {
+    overflow:hidden;
 }
 
 .nav {
