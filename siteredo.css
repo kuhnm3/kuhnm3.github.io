@@ -355,7 +355,7 @@ h1 {
 }
 
 #animation {
-    overflow:hidden;
+    display:none;
 }
 
 .nav {
