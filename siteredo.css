@@ -1,3 +1,7 @@
+* {
+    overflow:hidden;
+}
+
 /* Nav bar stuff */
 .navbar {
     list-style-type: none;
