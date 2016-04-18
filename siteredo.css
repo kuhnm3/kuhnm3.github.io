@@ -62,7 +62,10 @@ header {
         min-width:100%;
         margin:none;
         position:relative;
+}
 
+body {
+    overflow:hidden;
 }
 
 #animate {
@@ -308,7 +311,7 @@ h1 {
 @media (max-width: 1000px) {
  
  .landing {
-    height:50%;
+    height:40%;
     background-position: top center;
     overflow:hidden;
  }
@@ -353,6 +356,10 @@ h1 {
 
 .nav {
     background-color:rgba(0,0,0,0);
+}
+
+.galaxy-four {
+    height:30%;
 }
 
 }
