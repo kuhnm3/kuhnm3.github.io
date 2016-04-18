@@ -305,7 +305,7 @@ h1 {
 
 
 /*Media Quieries*/
-@media (max-width: 740px) {
+@media (max-width: 1000px) {
  
  .landing {
     height:50%;
