@@ -64,10 +64,6 @@ header {
         position:relative;
 }
 
-body {
-    overflow:hidden;
-}
-
 #animate {
   position: absolute;
   bottom:0;
