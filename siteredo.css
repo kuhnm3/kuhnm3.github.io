@@ -304,7 +304,7 @@ h1 {
 
 
 /*Media Quieries*/
-@media (max-width: 1000px) {
+@media (max-width: 922px) {
  
  .landing {
     height:40%;
@@ -356,6 +356,10 @@ h1 {
 
 .galaxy-four {
     height:30%;
+}
+
+.spaceship {
+    display:none;
 }
 
 }
