@@ -320,25 +320,27 @@ h1 {
     font-size:30px; 
  }
 
- .name-title {
-  position:relative;
+.name-title {
+  text-align:center;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  height:350px;
+  width:1000px;
+
  }
 
  .name-title h1 {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
-    height:300px;
-    width:400px;
     font-size:55px;
     color:black;
+    text-align: center;
  }
 
  .name-title p {
     font-size:35px;
+    text-align:center;
  }
 
  .menu-btn {
