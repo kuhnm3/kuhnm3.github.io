@@ -320,7 +320,8 @@ h1 {
     font-size:30px; 
  }
 
-.name-title {
+
+ .name-title {
   text-align:center;
   left:0;
   right:0;
@@ -346,6 +347,7 @@ h1 {
  .menu-btn {
     display: block;
     text-decoration: none;
+     background-color:rgba(150,150,150,0.6);
   }
   .nav-links{
     display:none;
@@ -353,6 +355,7 @@ h1 {
   .nav-links li{
     display:block;
     clear:both;
+    font-size:30px;
     width:100%;
     border-top:1px solid black;
     text-align:center;
@@ -360,10 +363,10 @@ h1 {
   .nav-links li a{
     display:block;
   }
-  
-   .par-contact {
-    font-size:10px;
-    padding:10px;
+
+  .menu-btn {
+    font-size:40px;
+    color:black;
   }
 
   .nav {
@@ -380,6 +383,11 @@ h1 {
 
   .hovereffect .overlay {
     display:block;
+  }
+
+  .par-contact {
+    font-size:10px;
+    padding:10px;
   }
 
   .about-picture img {
