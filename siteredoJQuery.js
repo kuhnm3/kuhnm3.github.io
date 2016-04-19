@@ -2,6 +2,10 @@ $(document).on('click', '.menu-btn', function(){
   $(".nav-links").toggle();
 })
 
+$(document).on('click', '.menu-btn', function(){
+  $(".name-title").toggle();
+})
+
 $(document).ready(function(e) {
 
   var width = "+=" + 
@@ -17,3 +21,4 @@ $(document).ready(function(e) {
     }, 4000);
   }
 });
+
