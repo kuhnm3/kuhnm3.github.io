@@ -358,6 +358,11 @@ h1 {
   .nav-links li a{
     display:block;
   }
+  
+   .par-contact {
+    font-size:10px;
+    padding:10px;
+  }
 
   .nav {
     background-color:rgba(0,0,0,0);
