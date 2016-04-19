@@ -109,6 +109,10 @@ p {
   font-size: 50px;
 } 
 
+.about-picture {
+  text-align:center;
+}
+
 .about-picture img{
   max-width:100%;
   border-radius:125px;
@@ -316,20 +320,25 @@ h1 {
     font-size:30px; 
  }
 
+ .name-title {
+  position:relative;
+ }
+
  .name-title h1 {
     position:absolute;
     top:0;
     left:0;
     right:0;
-    margin:0;
-    height:10px;
-    padding:0;
-    font-size:35px;
+    bottom:0;
+    margin:auto;
+    height:300px;
+    width:400px;
+    font-size:45px;
     color:black;
  }
 
  .name-title p {
-    display:none;
+    font-size:25px;
  }
 
  .menu-btn {
@@ -350,18 +359,30 @@ h1 {
     display:block;
   }
 
-.nav {
+  .nav {
     background-color:rgba(0,0,0,0);
-}
+  }
 
-.galaxy-four {
+  .galaxy-four {
     height:30%;
-}
+  }
 
-.spaceship {
+  .spaceship {
     display:none;
-}
+  }
 
-}
+  .hovereffect .overlay {
+    display:block;
+  }
+
+  .about-picture img {
+    padding:10px;
+  }
+  .background-par {
+    text-align:center;
+    padding:15px;
+  }
+
+  }
 
 
