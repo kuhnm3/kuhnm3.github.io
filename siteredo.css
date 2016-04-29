@@ -3,6 +3,7 @@
 /* Nav bar stuff */
 .navbar {
     list-style-type: none;
+    text-decoration:none;
     margin:0;
     padding:0;
     overflow:hidden;
