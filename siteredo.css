@@ -276,6 +276,7 @@ i.fa {
 
 .email:hover {
     font-family:cursive;
+    text-decoration:none;
 }
 
 h1 {
