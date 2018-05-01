@@ -50,6 +50,10 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+.temp {
+	color: #fff;
+}
+
 .hero-bottom-container {
 	color: #fff;
 	position: absolute;
