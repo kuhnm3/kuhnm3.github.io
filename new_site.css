@@ -1,0 +1,229 @@
+.nav-section {
+	height: 10vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,.7);
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+}
+
+.nav-section a {
+	text-decoration: none;
+	color: #fff;
+	margin: 0 15px;
+	letter-spacing: .2em;
+	font-size: 18px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+.hero-unit {
+	height:100vh;
+	width: 100vw;
+	background: url(http://i1356.photobucket.com/albums/q734/Kuhnm3/cosmos-1845140_1920_zpsvxdpz5ow.jpg) center no-repeat fixed;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-name {
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.hero-title {
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.hero-bottom-container {
+	color: #fff;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: .2em;
+}
+
+.carrot {
+	transform: scaleX(1.2);
+}
+
+.background-container {
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-image-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 30px;
+}
+
+.profile-image {
+	height: 80%;
+	width: auto;
+	border-radius: 100%;
+}
+
+.profile-text-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 4;
+	padding: 0 30px;
+}
+
+.galaxy {
+	height: 30vh;
+	width: 100vw;
+}
+
+.galaxy-one {
+	background: url(http://i1356.photobucket.com/albums/q734/Kuhnm3/tarantula-nebula-1245253_1920_zpslz5y0awd.jpg) center no-repeat fixed;
+	background-size: cover;
+}
+
+.experience-container {
+	margin: 40px 0;
+}
+
+.companies {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.company {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+}
+
+
+.company-image-hover-container {
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.company-image-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.company-image {
+	border-radius: 100%;
+	height: 180px;
+	width: 180px;
+}
+
+.jebbit .company-image {
+	background: url(http://i1356.photobucket.com/albums/q734/Kuhnm3/jebbit_zpstnninds6.png) center no-repeat;
+	background-size: contain;
+}
+
+.startupinstitute .company-image {
+	background: url(http://i1356.photobucket.com/albums/q734/Kuhnm3/startup_institute_logo_zpsfbj7suyv.jpg) center no-repeat;
+	background-size: contain;
+
+}
+
+.hover-effect {
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.hover-effect:hover {
+	background-color: rgba(0, 140, 186, .8);
+}
+
+.hover-effect a {
+	text-decoration: none;
+	color: transparent;
+}
+
+.hover-effect:hover a {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 5px;
+}
+
+
+.title {
+	color: #000;
+	font-size: 30px;
+	margin: 10px 0 0 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.date {
+	color: #000;
+	font-size: 14px;
+	font-style: italic;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.description {
+	padding: 10px 20px;
+}
+
+.icons-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon-text {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	margin: 40px 0 20px 0;
+}
+
+.experience-icon {
+	height: 150px;
+	width: auto;
+	padding: 0 15px;
+}
+
+.ruby {
+	height: 120px;
+	width: auto;
+}
+
