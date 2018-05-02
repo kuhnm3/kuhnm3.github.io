@@ -68,16 +68,6 @@
 }
 
 
-.scrolled {
-	height: 7vh;
-}
-
-.not-scrolled {
-	height: 10vh;
-}
-
-
-
 .hero-unit {
 	height:100vh;
 	width: 100vw;
@@ -356,6 +346,15 @@
 
 .experience-icon {
 	padding: 0 15px;
+}
+
+
+.scrolled {
+	height: 7vh;
+}
+
+.not-scrolled {
+	height: 10vh;
 }
 
 }
